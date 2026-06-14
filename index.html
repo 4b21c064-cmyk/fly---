@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>小四軸 - 極簡白色版</title>
+    <link rel="stylesheet" href="style_light.css">
+</head>
+<body>
+    <header>
+        <button class="btn-fullscreen">🖥️ 全螢幕</button>
+        <div class="logo">小四軸 (Light Mode)</div>
+        <button class="btn-connect">連接藍牙</button>
+    </header>
+
+    <section class="telemetry">
+        <div class="data-box">油門(T): <span>0%</span></div>
+        <div class="data-box">航向(Y): <span>0</span></div>
+        <div class="data-box">前後(P): <span>0</span></div>
+        <div class="data-box">左右(R): <span>0</span></div>
+    </section>
+
+    <main class="control-container">
+        <div id="leftZone" class="joystick-zone">
+            <div id="leftStick" class="stick"></div>
+            <div class="joystick-label">左手：油門 / 航向</div>
+        </div>
+        <div id="rightZone" class="joystick-zone">
+            <div id="rightStick" class="stick"></div>
+            <div class="joystick-label">右手：前後 / 左右</div>
+        </div>
+    </main>
+
+    <footer>
+        <button class="btn-arm">解鎖馬達 (ARM)</button>
+    </footer>
+</body>
+</html>
